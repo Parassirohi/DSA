@@ -9,6 +9,7 @@ def insertion_sort(elements):
             j = j-1
         elements[j+1] = anchor
 
+
 if __name__ == '__main__':
     elements = [11,9,29,7,2,15,28]
     insertion_sort(elements)
